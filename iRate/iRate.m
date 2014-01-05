@@ -405,7 +405,7 @@ static NSString *const iRateMacAppStoreURLFormat = @"macappstore://itunes.apple.
     }
     
     //check if we've declined to rate the app
-    else if (self.declinedAnyVersion)
+    else if (self.declinedThisVersion)
     {
         if (self.verboseLogging)
         {
